@@ -6,7 +6,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-    res.send('learning automated testing');
+    res.send('learning automated testing/Integration');
 });
 
 app.listen(process.env.PORT || 5000);
